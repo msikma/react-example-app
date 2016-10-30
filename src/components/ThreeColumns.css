@@ -1,0 +1,8 @@
+.App .component.three-columns {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.App .component.three-columns .item img {
+    width: 37.5%;
+    margin-bottom: 20px;
+}

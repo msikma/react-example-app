@@ -1,0 +1,18 @@
+
+.App .page.topics .sub-topics {
+    background: #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+}
+.App .page.topics .sub-topics .nav-tabs {
+    border-bottom: 0;
+}
+.App .page.topics .sub-topics .nav-tabs > li > a {
+    color: #333;
+    border-bottom: 0;
+}
+.App .page.topics .sub-topics .nav-tabs > li > a:hover {
+    border-bottom: 0;
+}
+.App .page.topics .sub-topics .nav-tabs > li.active > a {
+    color: #ff5252;
+}

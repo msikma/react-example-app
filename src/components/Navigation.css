@@ -1,0 +1,17 @@
+.App .top-nav {
+    background: white;
+    box-shadow: none;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 0;
+}
+.App .top-nav .navbar-nav.home > li > a {
+    font-size: 19px;
+}
+.App .top-nav .navbar-nav > li > a {
+    color: #898989;
+}
+.App .top-nav .navbar-nav > li.active > a {
+    background: white;
+    box-shadow: none;
+    color: #ff5252;
+}
