@@ -23,7 +23,7 @@ class Header extends Component {
   pressButton = (ev) => {
     // Send the user to the About page if we're hovering over the join button
     // and they press "a".
-    if (ev.key === 'a' && this.joinEnabled) {
+    if (String.fromCharCode(ev.which) === 'A' && this.joinEnabled) {
       browserHistory.push('/about');
     }
   }
